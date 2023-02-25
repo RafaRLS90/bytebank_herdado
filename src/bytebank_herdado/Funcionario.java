@@ -5,10 +5,8 @@ public abstract  class Funcionario {
 	private String cpf;
 	private double salario;
 	
-	public double getBonificacao() {
-		//System.out.println("Chamando o metodo de bonificacao do Funcionario");
-		return this.salario * 0.05;
-	}
+	// metodo sem corpo, não há implementação
+	public abstract double getBonificacao(); 
 	
 	public String getNome() {
 		return nome;

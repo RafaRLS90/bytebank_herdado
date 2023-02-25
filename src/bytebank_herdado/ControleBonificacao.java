@@ -6,7 +6,7 @@ public class ControleBonificacao {
 	
 
 	public void registra(Funcionario f) {
-    	this.soma += f.getBonificacao();
+    	this.soma = f.getBonificacao();
     	//this.soma = this.soma + boni;
     }
 	
