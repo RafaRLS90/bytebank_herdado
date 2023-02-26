@@ -1,6 +1,6 @@
 package bytebank_herdado;
 
-public class Administrador extends FuncionarioAutenticavel {
+public class Administrador extends Funcionario {
 
 	
     
